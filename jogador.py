@@ -154,6 +154,7 @@ class Jogador(Ser):
         print(f"\nO jogador {self.nome.capitalize()} pertence a classe {self.classe.nome.capitalize()}, empunha a arma {self.arma.nome.capitalize()} e está pronto para a aventura!")
         
     def imprimir_atributos(self) -> None:
+        print('Atributos do jogador:')
         print(f"Nome: {self.nome}")
         print(f"Classe: {self.classe.nome}")
         print(f"Nível: {self.nivel}")
