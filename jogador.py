@@ -115,15 +115,23 @@ class Jogador(Ser):
                 ataque = int(input("Escolha uma interação: "))
                 if ataque == 2:
                     dano = self.arma.ataque_duas_maos() + self.modificador(self.__forca)
+                    print(f'{self.nome} atacou o {oponente.nome}, com {dano} de dano')
+                    oponente.receber_dano(dano)
                     break
                 elif ataque == 1:
                     dano = self.arma.ataque_rapido() + self.modificador(self.__forca)
+                    print(f'{self.nome} atacou o {oponente.nome}, com {dano} de dano')
+                    oponente.receber_dano(dano)
                     break
                 elif ataque == 3:
                     dano = self.classe.ataque_especial()
+                    print(f'{self.nome} atacou o {oponente.nome}, com {dano} de dano')
+                    oponente.receber_dano(dano)
                     break
                 elif ataque == 4:
                     dano = self.arma.ataque_furioso() + self.modificador(self.__forca)
+                    print(f'{self.nome} atacou o {oponente.nome}, com {dano} de dano')
+                    oponente.receber_dano(dano)
                     break
                 elif ataque == 5:
                     cura = self.classe.curar_se()
@@ -134,8 +142,6 @@ class Jogador(Ser):
                     print("Por favor, digite apenas 1, 2, 3, 4 ou 5.")
             except ValueError:
                 print("Entrada inválida. Por favor, insira um número.")
-        print(f'{self.nome} atacou o {oponente.nome}, com {dano} de dano')
-        oponente.receber_dano(dano)
 
     def receber_dano(self, dano: int) -> None:
         acerto = random.randint(1, 20)
