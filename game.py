@@ -31,14 +31,11 @@ class Game:
         while True:
             try:
                 escolha = int(input("Digite o número da sua escolha: "))
-                if escolha == 0:
+                if escolha == 1:
                     self.nova_campanha()
                     break
-                elif escolha == 1:
-                    self.ver_campanhas_salvas()
-                    break
                 elif escolha == 2:
-                    self.outra_opcao()
+                    self.ver_campanhas_salvas()
                     break
                 else:
                     print("Opção inválida. Tente novamente.")
@@ -90,6 +87,7 @@ class Game:
                     espada =  self.escolher_tipo_espada()
                     jogador = Jogador(nome, classe, espada)
                     jogador.definir_atributos()
+                    jogador.imprimir_atributos()
                     self.jogadores.append(jogador)
                     break
                 else:
