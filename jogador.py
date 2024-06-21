@@ -109,9 +109,9 @@ class Jogador(Ser):
                 print('\nInterações')
                 print("1 - Ataque Rapido: Dano do dado da arma")
                 print("2 - Ataque com Duas Mãos: Dano do dado da arma, com maior precisão")
-                print("3 - Ataque especial da Classe: 4 de dano, gasta 200 de mana")
+                print("3 - Ataque especial da Classe: 4 de dano, gasta 100 de mana")
                 print("4 - Ataque furioso: Grande Dano, mas grande chanche de erro")
-                print("5 - Curar a si mesmo: Cura especial da Classe, gasta 200 de mana")
+                print("5 - Curar a si mesmo: Cura especial da Classe, gasta 100 de mana")
                 ataque = int(input("Escolha uma interação: "))
                 if ataque == 2:
                     dano = self.arma.ataque_duas_maos() + self.modificador(self.__forca)
