@@ -12,6 +12,7 @@ class Classe:
         print(f"\nVoce prepera um ataque especial de {self.nome}")
         if self.mana_atual >= self.mana_especial:
             self.mana_atual -= self.mana_especial
+            print(f'Voce gastou {self.mana_especial} de mana. {self.mana_atual} de mana restante.')
             return self.dano_especial
         else:
             print("\nVoce não tinha mana para atacar. Voce se distrai e perde sua vez.")
@@ -21,6 +22,7 @@ class Classe:
         print(f"\nVoce prepera uma habilidade de cura de {self.nome}")
         if self.mana_atual >= self.mana_especial:
             self.mana_atual -= self.mana_especial
+            print(f'Voce gastou {self.mana_especial} de mana. {self.mana_atual} de mana restante.')
             return self.dano_especial
         else:
             print("\nVoce não tinha mana para curar. Voce se distrai e perde sua vez.")
