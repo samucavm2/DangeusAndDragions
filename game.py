@@ -24,9 +24,8 @@ class Game:
         
         # Menu de opções
         print("Escolha uma opção:")
-        print("0 - Nova campanha")
-        print("1 - Campanhas salvas")
-        print("2 - Outra opção")
+        print("1 - Nova campanha")
+        print("2 - Campanhas salvas")
         
         while True:
             try:
