@@ -1,0 +1,5 @@
+Arco_Longo 50 po 1d8 perfurante 1 kg Munição (distância 45/180), pesada, duas mãos
+Besta_de_Mão 75 po 1d6 perfurante 1,5 kg Munição (distância 9/36), leve, recarga
+Besta_Pesada 50 po 1d10 perfurante 4,5 kg Munição (distância 30/120), pesada, recarga, duas mãos
+Rede 1 po 1d1 1,5 kg Especial, arremesso (distância 1,5/4,5)
+Zarabatana 10 po 1d1 perfurante 0,5 kg Munição (distância 7,5/30), recarga

@@ -1,0 +1,10 @@
+Adaga 2 po 1d4 perfurante 0,5 kg Acuidade, leve, arremesso (distância 6/18)
+Azagaia 5 pp 1d6 perfurante 1 kg Arremesso (distância 9/36)
+Bordão 2 pp 1d6 concussão 2 kg Versátil (1d8)
+Clava 2 pp 1d8 concussão 5 kg Pesada, duas mãos
+Foice 1 po 1d4 cortante 1 kg Leve
+Lança 1 po 1d6 perfurante 1,5 kg Arremesso (distância 6/18), versátil (1d8)
+Maça 5 po 1d6 concussão 2 kg –
+Machadinha 5 po 1d6 cortante 1 kg Leve, arremesso (distância 6/18)
+Martelo 2 po 1d4 concussão 1 kg Leve, arremesso (distância 6/18)
+Porrete 1 pp 1d4 concussão 1 kg Leve

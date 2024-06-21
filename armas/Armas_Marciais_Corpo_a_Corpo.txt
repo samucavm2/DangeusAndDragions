@@ -1,0 +1,18 @@
+Alabarda 20 po 1d10 cortante 3 kg Pesada, alcance, duas mãos
+Cimitarra 25 po 1d6 cortante 1,5 kg Acuidade, leve
+Chicote 2 po 1d4 cortante 1,5 kg Acuidade, alcance
+Espada_Curta 10 po 1d6 perfurante 1 kg Acuidade, leve
+Espada_Grande 50 po 2d6 cortante 3 kg Pesada, duas mãos
+Espada_Longa 15 po 1d8 cortante 1,5 kg Versátil (1d10)
+Glaive 20 po 1d10 cortante 3 kg Pesada, alcance, duas mãos
+Lança_de_Montaria 10 po 1d12 perfurante 3 kg Alcance, especial
+Lança_Longa 5 po 1d10 perfurante 4 kg Pesada, alcance, duas mãos
+Maça_Estrela 15 po 1d8 perfurante 2 kg –
+Machado_Grande 30 po 1d12 cortante 3,5 kg Pesada, duas mãos
+Machado_de_Batalha 10 po 1d8 cortante 2 kg Versátil (1d10)
+Malho 10 po 2d6 concussão 5 kg Pesada, duas mãos
+Mangual 10 po 1d8 concussão 1 kg –
+Martelo_de_Guerra 15 po 1d8 concussão 1 kg Versátil (1d10)
+Picareta_de_Guerra 5 po 1d8 perfurante 1 kg –
+Rapieira 25 po 1d8 perfurante 1 kg Acuidade
+Tridente 5 po 1d6 perfurante 2 kg Arremesso (6/18), versátil (1d8)
